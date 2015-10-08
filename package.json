@@ -1,0 +1,24 @@
+{
+  "name": "cli-character-set",
+  "version": "1.0.0",
+  "description": "Try to guess if your terminal's supported character set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gillesdemey/cli-character-set.git"
+  },
+  "keywords": [
+    "cli",
+    "character",
+    "encoding"
+  ],
+  "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gillesdemey/cli-character-set/issues"
+  },
+  "homepage": "https://github.com/gillesdemey/cli-character-set#readme"
+}
