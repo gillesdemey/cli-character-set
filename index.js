@@ -5,7 +5,7 @@ var child_process = require("child_process")
 var hasUnicode = module.exports = function () {
   // Supported Win32 platforms (>XP) support unicode in the console, though
   // font support isn't fantastic.
-  if (os.type() == "Windows_NT") { return 'bcp437'; }
+  if (os.type() == "Windows_NT") { return 'cp437'; }
 
   var isUTF8 = /[.]UTF-8/
   if (isUTF8.test(process.env.LC_ALL)
