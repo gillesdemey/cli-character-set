@@ -1,6 +1,6 @@
 {
   "name": "cli-character-set",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Try to guess if your terminal's supported character set",
   "main": "index.js",
   "scripts": {
